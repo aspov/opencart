@@ -11,6 +11,7 @@ class ModelCatalogProduct extends Model {
 			return array(
 				'product_id'       => $query->row['product_id'],
 				'name'             => $query->row['name'],
+				'alternative_name' => $query->row['alternative_name'],
 				'description'      => $query->row['description'],
 				'meta_title'       => $query->row['meta_title'],
 				'meta_description' => $query->row['meta_description'],
